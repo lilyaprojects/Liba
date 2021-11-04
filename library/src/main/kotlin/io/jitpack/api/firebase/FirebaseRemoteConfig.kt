@@ -1,19 +1,19 @@
-package io.jitpack.lilya.firebase
+package io.jitpack.api.firebase
 
 import android.app.Activity
 import android.util.Log
-import io.jitpack.lilya.RemoteListener
+import io.jitpack.api.RemoteListener
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 import android.os.StrictMode
 import android.os.StrictMode.ThreadPolicy
-import io.jitpack.lilya.apps.AppsProjector
-import io.jitpack.lilya.apps.AppsProjector.preferences
-import io.jitpack.lilya.utils.Constants.ONCONVERSION
-import io.jitpack.lilya.utils.Constants.TAG
-import io.jitpack.lilya.utils.Link
-import io.jitpack.lilya.utils.Utils
+import io.jitpack.api.apps.AppsProjector
+import io.jitpack.api.apps.AppsProjector.preferences
+import io.jitpack.api.utils.Constants.ONCONVERSION
+import io.jitpack.api.utils.Constants.TAG
+import io.jitpack.api.utils.Link
+import io.jitpack.api.utils.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

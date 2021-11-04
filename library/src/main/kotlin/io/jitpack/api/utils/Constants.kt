@@ -1,4 +1,4 @@
-package io.jitpack.lilya.utils
+package io.jitpack.api.utils
 
 
 object Constants {

@@ -1,4 +1,4 @@
-package io.jitpack.lilya.onesignsl
+package io.jitpack.api.onesignsl
 
 import android.content.Context
 import com.onesignal.OneSignal

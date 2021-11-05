@@ -1,10 +1,10 @@
-package io.jitpack.api.bd
+package sdk.library.lilya.bd
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import io.jitpack.api.utils.Link
+import sdk.library.lilya.utils.Link
 
 
 @Database(entities = [Link::class], version = 1, exportSchema = false)

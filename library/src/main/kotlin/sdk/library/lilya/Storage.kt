@@ -1,4 +1,4 @@
-package io.jitpack.api
+package sdk.library.lilya
 
 import android.content.Context
 import android.content.SharedPreferences

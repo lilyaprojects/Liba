@@ -1,8 +1,8 @@
-package io.jitpack.api
+package sdk.library.lilya
 
 import androidx.lifecycle.LiveData
-import io.jitpack.api.bd.LinkDao
-import io.jitpack.api.utils.Link
+import sdk.library.lilya.bd.LinkDao
+import sdk.library.lilya.utils.Link
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

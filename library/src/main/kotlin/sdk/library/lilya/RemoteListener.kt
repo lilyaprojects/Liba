@@ -1,4 +1,4 @@
-package io.jitpack.api
+package sdk.library.lilya
 
 interface RemoteListener {
 

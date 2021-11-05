@@ -1,8 +1,8 @@
-package io.jitpack.api.bd
+package sdk.library.lilya.bd
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import io.jitpack.api.utils.Link
+import sdk.library.lilya.utils.Link
 
 @Dao
 interface LinkDao {

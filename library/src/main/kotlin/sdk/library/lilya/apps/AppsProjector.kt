@@ -1,14 +1,14 @@
-package io.jitpack.api.apps
+package sdk.library.lilya.apps
 
 import android.app.Activity
 import android.content.Context
-import io.jitpack.api.utils.Constants.appsDevKey
-import io.jitpack.api.firebase.FirebaseRemoteConfig
-import io.jitpack.api.onesignsl.OneSignal
-import io.jitpack.api.utils.Constants
-import io.jitpack.api.Repository
-import io.jitpack.api.bd.LinkDatabase
-import io.jitpack.api.Storage
+import sdk.library.lilya.utils.Constants.appsDevKey
+import sdk.library.lilya.firebase.FirebaseRemoteConfig
+import sdk.library.lilya.onesignsl.OneSignal
+import sdk.library.lilya.utils.Constants
+import sdk.library.lilya.Repository
+import sdk.library.lilya.bd.LinkDatabase
+import sdk.library.lilya.Storage
 
 object AppsProjector {
 

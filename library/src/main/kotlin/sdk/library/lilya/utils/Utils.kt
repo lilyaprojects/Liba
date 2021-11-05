@@ -1,8 +1,8 @@
-package io.jitpack.api.utils
+package sdk.library.lilya.utils
 
 import android.content.Context
 import com.appsflyer.AppsFlyerLib
-import io.jitpack.api.utils.Constants.appsDevKey
+import sdk.library.lilya.utils.Constants.appsDevKey
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL

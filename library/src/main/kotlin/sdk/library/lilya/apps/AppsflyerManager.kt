@@ -1,18 +1,18 @@
-package io.jitpack.api.apps
+package sdk.library.lilya.apps
 
 import android.content.Context
 import android.util.Log
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
-import io.jitpack.api.RemoteListener
-import io.jitpack.api.apps.AppsProjector.preferences
-import io.jitpack.api.utils.Constants
-import io.jitpack.api.utils.Constants.LOG
-import io.jitpack.api.utils.Constants.ONCONVERSION
-import io.jitpack.api.utils.Constants.TAG
-import io.jitpack.api.utils.Constants.TRUE
-import io.jitpack.api.utils.Link
-import io.jitpack.api.utils.Utils
+import sdk.library.lilya.RemoteListener
+import sdk.library.lilya.apps.AppsProjector.preferences
+import sdk.library.lilya.utils.Constants
+import sdk.library.lilya.utils.Constants.LOG
+import sdk.library.lilya.utils.Constants.ONCONVERSION
+import sdk.library.lilya.utils.Constants.TAG
+import sdk.library.lilya.utils.Constants.TRUE
+import sdk.library.lilya.utils.Link
+import sdk.library.lilya.utils.Utils
 
 
 class AppsflyerManager(private val context: Context, private val appsDevKey: String):

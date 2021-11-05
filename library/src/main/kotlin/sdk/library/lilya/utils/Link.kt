@@ -1,4 +1,4 @@
-package io.jitpack.api.utils
+package sdk.library.lilya.utils
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

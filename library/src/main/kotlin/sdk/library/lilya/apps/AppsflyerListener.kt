@@ -1,4 +1,4 @@
-package io.jitpack.api.apps
+package sdk.library.lilya.apps
 
 interface AppsflyerListener {
 
